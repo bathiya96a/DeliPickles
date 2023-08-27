@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deli Pickles | Store</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/store_style.css">
+    <script type="text/javascript" src="../js/main_script.js"></script>
+    <style>
+                .store-gallery {
+                    width: 90%;
+                    margin: auto;
+                }
+
+                .title {
+                font-family: cursive;
+                }
+
+                .gallery-wrapper {
+                    display: flex;
+                }
+
+                .store-item {
+                padding: 20px 20px;
+                background-color: #c1f281;
+                margin: 5px;
+                }
+
+                .store-item {
+                    width: auto;
+                    height:auto;
+               
+                }
+
+                .card {
+                    display: block;
+                    text-align: center;
+                }
+
+                .store-item div button {
+                    margin: auto;
+                    align-content: center;
+                }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div>
+                <img src="../assets/logo.png" id="logo" alt="deli pickles logo">
+            </div>
+            <div>
+                <ul class="primary-text nav-list">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../pages/products.html">PRODUCTS</a></li>
+                    <li><a href="../pages/store.html">STORE</a></li>
+                    <li><a href="../pages/contact.html">CONTACT US</a></li>
+                    <li><a href="../pages/cart.html"><img src="../assets/cart.svg" alt="shopping cart" width="22px"></a>
+                    </li>
+                    <li><a href="#"><img src="../assets/user.svg" alt="user profile icon" width="20px"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+
+            <div class="store-gallery">
+                <h2 class="title">Store</h2>
+                <p>This is our store item collection.</p>
+
+                <div class="gallery-wrapper">
+                    <div class="store-item One">
+                        <div class="card">
+                            <img src="../assets/curry_pickles.png" alt="" width="150px" height="150px">
+                            <hr>
+                            <strong id="discount">Discount 10%</strong>
+                            <p id="item">Curry Pickles</p>
+                            <p>Net weight:<i>200g</i> </p>
+                            <p> <b id="price">1.20$</b></p>
+                        </div>
+                        <hr>
+                        <div>
+                            <button class="cta-btn" id="addtocart" onclick="addtocart()">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="store-item Two"><div class="card">
+                            <img src="../assets/lemon_pickles.png" alt="" width="150px" height="150px">
+                            <hr>
+                            <strong id="discount">Discount 20%</strong>
+                            <p id="item">Lemon Pickles</p>
+                            <p>Net weight:<i>200g</i> </p>
+                            <p> <b id="price">1.00$</b></p>
+                        </div>
+                        <hr>
+                        <div>
+                            <button class="cta-btn" id="addtocart" onclick="addtocart()">Add to Cart</button>
+                        </div></div>
+                    <div class="store-item Three"><div class="card">
+                            <img src="../assets/maley_pickles.png" alt="" width="150px" height="150px">
+                            <hr>
+                            <strong>Discount 10%</strong>
+                            <p>Maley Pickles</p>
+                            <p>Net weight:<i>200g</i> </p>
+                            <p> <b>1.50$</b></p>
+                        </div>
+                        <hr>
+                        <div>
+                            <button class="cta-btn" id="addtocart" onclick="addtocart()">Add to Cart</button>
+                        </div></div>
+                    <div class="store-item Four"><div class="card">
+                            <img src="../assets/pinapple_pickles.jpg" alt="" width="150px" height="150px">
+                            <hr>
+                            <strong>Discount 20%</strong>
+                            <p>Pinapple Pickles</p>
+                            <p>Net weight:<i>200g</i> </p>
+                            <p> <b>1.40$</b></p>
+                        </div>
+                        <hr>
+                        <div>
+                            <button class="cta-btn" id="addtocart" onclick="addtocart()">Add to Cart</button>
+                        </div></div>
+                </div>
+            </div>
+        
+    </section>
+
+    <footer>
+        <span id="auth-rights" class="rest-text">All Rights Reserved.</span>
+        <span id="copy" class="rest-text">Copyright &copy 2022 Deli Pickles.</span>
+        <span class="sm-link-icons">
+            <ul>
+                <li><img src="../assets/sm_facebook_icon.png" width="36px" alt="facebook icon"
+                        class="social_media-icon">
+                </li>
+                <li><img src="../assets/sm_insta_icon.png" width="36px" alt="instagram icon" class="social_media-icon">
+                </li>
+                <li><img src="../assets/sm_g_icon.png" width="36px" alt="googleplus icon" class="social_media-icon">
+                </li>
+                <li><img src="../assets/sm_li_icon.png" width="36px" alt="linkedin icon" class="social_media-icon"></li>
+            </ul>
+        </span>
+    </footer>
+</body>
+
+</html>

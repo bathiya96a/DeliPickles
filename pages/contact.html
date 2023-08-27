@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deli Pickles | Contact Us</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contact_style.css">
+    <style>
+
+                .container {
+                    margin: auto;
+                    width: 90%;
+                }
+
+                .card {
+                    padding : auto;
+                }
+
+                .title {
+                font-family: cursive;
+                }
+
+                .grid {
+                display: flexbox;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: auto;
+                gap: 10px;
+                text-align: center;
+                }
+
+                .box {
+                padding: 1vw 1vw;
+                background-color: #c1f281;
+                margin: 5px;
+                }
+
+                .one {
+                grid-column:1/5;
+                grid-row: 1;
+                }
+
+                .two {
+                grid-column: 1/3;
+                grid-row: 2;
+                }
+
+                .three {
+                grid-column: 3/5;
+                grid-row: 2;
+                }
+
+                .four {
+                grid-column: 1/5;
+                grid-row: 3;
+                
+                }
+                
+                .four ul {
+                    padding: 1vw;
+                }
+
+                .four ul li {
+                    list-style-type: none;
+                    
+                }
+
+                .four ul li a {
+                    text-decoration: none;
+                }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div>
+                <img src="../assets/logo.png" id="logo" alt="deli pickles logo">
+            </div>
+            <div>
+                <ul class="primary-text nav-list">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../pages/products.html">PRODUCTS</a></li>
+                    <li><a href="../pages/store.html">STORE</a></li>
+                    <li><a href="../pages/contact.html">CONTACT US</a></li>
+                    <li><a href="../pages/cart.html"><img src="../assets/cart.svg" alt="shopping cart" width="22px"
+                                onclick=""></a></li>
+                    <li><a href="#"><img src="../assets/user.svg" alt="user profile icon" width="20px"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+
+
+        <div class="container">
+
+            <h2 class="title">Contact Us</h2>
+
+            <p>Contact us for more details and orders.</p>
+
+
+            <div class="grid">
+                <div class="box one">
+                    <div class="card">
+                        <p>
+                            <b>Tel</b> : xxx-xxx-xxxx / xxx-xxx-xxxx
+                        </p>
+                        <p><b>Fax</b> : xx-xxx-xxx-xxx</p>
+                        <b>E-mail</b> : delipicklesmail@deliweb.com
+
+                    </div>
+                </div>
+                <div class="wrap-content">
+                    <div class="box two">
+                        <div class="card">
+                            <b>Visit Us Address :</b>
+                            <address>
+                                No : xxxx/x,<br>
+                                Lorem ipsum dolor,<br>
+                                Lorem ipsum.<br>
+                                Lorem.
+                            </address>
+                        </div>
+                    </div>
+                    <div class="box three">
+                        <div class="card">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2598687.114870846!2d4.476674!3d50.501045!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1649290119770!5m2!1sen!2slk"
+                                width="auto" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="box four">
+                    <div class="card">
+                        <h4>Social Media Links</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Facebook : www.facebook.com/delipickles</a>
+                            </li>
+                            <li>
+                                <a href="#">Twitter : www.twitter.com/delipickles</a>
+                            </li>
+                            <li>
+                                <a href="#">LinkedIn : www.linkedin.com/delipickles</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <span id="auth-rights" class="rest-text">All Rights Reserved.</span>
+        <span id="copy" class="rest-text">Copyright &copy 2022 Deli Pickles.</span>
+        <span class="sm-link-icons">
+            <ul>
+                <li><img src="../assets/sm_facebook_icon.png" width="36px" alt="facebook icon"
+                        class="social_media-icon">
+                </li>
+                <li><img src="../assets/sm_insta_icon.png" width="36px" alt="instagram icon" class="social_media-icon">
+                </li>
+                <li><img src="../assets/sm_g_icon.png" width="36px" alt="googleplus icon" class="social_media-icon">
+                </li>
+                <li><img src="../assets/sm_li_icon.png" width="36px" alt="linkedin icon" class="social_media-icon"></li>
+            </ul>
+        </span>
+    </footer>
+</body>
+
+</html>

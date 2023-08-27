@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deli Pickles | Shopping Cart</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/cart_style.css">
+    <script src="../js/main_script.js"></script>
+    <style>
+         .container {
+         width: 90%;
+         margin: auto;
+         }
+
+         .title {
+         font-family: cursive;
+         }
+
+         .item {
+             border-radius: 10px;
+             padding: 20px 40px;
+         }
+
+         @media screen and (min-width:2000px) {
+             .container {
+                 font-size: 1.5vw;
+             }
+
+             .item {
+             padding: 2vw 4vw;
+             }
+         }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div>
+                <img src="../assets/logo.png" id="logo" alt="deli pickles logo">
+            </div>
+            <div>
+                <ul class="primary-text nav-list">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="cart.html"><img src="../assets/cart.svg" alt="shopping cart" width="22px"></a>
+                    </li>
+                    <li><a href="#"><img src="../assets/user.svg" alt="user profile icon" width="20px"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+
+        <div class="container">
+            <h2 class="title">Shopping Cart</h2>
+            <p>Your Shopping Items.</p>
+
+            <div class="cart-items">
+                <div class="item">
+                    <table style="border: 1px solid gray; border-radius: 5px;">
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Discount</th>
+                            <th>Total</th>
+                        </tr>
+                        <tr>
+                            <td>Item1</td>
+                            <td><input type="text" placeholder="Quantity" width="auto">
+                                <button class="cta-btn" id="addquantity" onclick="addtototal()">Add</button></td>
+                            <td>200</td>
+                            <td>10%</td>
+                            <td>400</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <span id="auth-rights" class="rest-text">All Rights Reserved.</span>
+        <span id="copy" class="rest-text">Copyright &copy 2022 Deli Pickles.</span>
+        <span class="sm-link-icons">
+            <ul>
+                <li><img src="../assets/sm_facebook_icon.png" width="36px" alt="facebook icon"
+                        class="social_media-icon">
+                </li>
+                <li><img src="../assets/sm_insta_icon.png" width="36px" alt="instagram icon" class="social_media-icon">
+                </li>
+                <li><img src="../assets/sm_g_icon.png" width="36px" alt="googleplus icon" class="social_media-icon">
+                </li>
+                <li><img src="../assets/sm_li_icon.png" width="36px" alt="linkedin icon" class="social_media-icon"></li>
+            </ul>
+        </span>
+    </footer>
+</body>
+
+</html>

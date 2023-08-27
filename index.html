@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deli Pickles</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="./js/main_script.js"></script>
+    <!-- https://drive.google.com/drive/folders/1To4N5-PBMuZ_BD8BKWh0aCYcqZ7AyDdy?usp=sharing -->
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div>
+                <img src="assets/logo.png"
+                    id="logo" alt="deli pickles logo">
+            </div>
+            <div>
+                <ul class="primary-text nav-list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="pages/products.html">PRODUCTS</a></li>
+                    <li><a href="pages/store.html">STORE</a></li>
+                    <li><a href="pages/contact.html">CONTACT US</a></li>
+                    <li><a href="pages/cart.html"><img
+                                src="assets/cart.svg"
+                                alt="shopping cart" width="22px"></a>
+                    </li>
+                    <li><a href="#"><img
+                                src="assets/user.svg"
+                                alt="user profile icon" width="20px"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section style="margin-top: 3vw;">
+        <div class="wrapper">
+            <img src="https://drive.google.com/uc?id=1VsWiMq-X8WQKAn8gcyiIhyLQJRAOVTV1"
+                class="main-image" alt="" width="600px" height="auto">
+            <div class="content" style="background-color: #f2f2da;">
+                <h1 class="accent-text hero-text">New Tastes Are Ready To Serve!</h1>
+                <p class="primary-text">Sri Lankas' Number 1 Traditional Pickles. We have a master collection of
+                    delicious dishes for you. Do
+                    you wanna try?</p>
+                <button class="cta-btn" onclick="document.getElementById('section-middle').scrollIntoView()">Let's Try</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-middle">
+        <h3 style="margin: 1vw 5vw;" class="primary-text rest-intro">Introducing...</h3>
+        <div class="wrapper">
+            <div class="content" style="text-align: right;">
+                <h2 class="accent-text">Pinapple Pickles</h2>
+                <strong>Very Decent for the Garden Parties</strong>
+                <p class="primary-text">You gonna get "100% Mmmm..." Satisfaction Gurantee from your friends.</p>
+                <button class="cta-btn" onclick="openstore()">What else?</button>
+            </div>
+            <img src="assets/pinapple_pickles.jpg" class="main-image" alt="" width="600px" height="auto">
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper card-wrapper">
+            <div class="cards primary-text">
+                <div class="card">
+                    <img src="assets/lemon_pickles.png" class="card-image" alt="">
+                    <p style="text-align: center;">Lemon Pickles</p>
+                </div>
+                <div class="card">
+                    <img src="assets/curry_pickles.png" class="card-image" alt="">
+                    <p style="text-align: center;">Curry Pickles</p>
+                </div>
+                <div class="card">
+                    <img src="assets/maley_pickles.png" class="card-image" alt="">
+                    <p style="text-align: center;">Maley Pickles</p>
+                </div>
+            </div>
+        </div>
+        <div style="padding-left: 45%;">
+            <button class="cta-btn" onclick="openproducts()">More</button>
+        </div>
+    </section>
+
+    <footer>
+        <span id="auth-rights" class="rest-text">All Rights Reserved.</span>
+        <span id="copy" class="rest-text">Copyright &copy 2022 Deli Pickles.</span>
+        <span class="sm-link-icons">
+            <ul>
+                <li><img src="assets/sm_facebook_icon.png" width="36px" alt="facebook icon" class="social_media-icon"></li>
+                <li><img src="assets/sm_insta_icon.png" width="36px" alt="instagram icon" class="social_media-icon"></li>
+                <li><img src="assets/sm_g_icon.png" width="36px" alt="googleplus icon" class="social_media-icon"></li>
+                <li><img src="assets/sm_li_icon.png" width="36px" alt="linkedin icon" class="social_media-icon"></li>
+            </ul>
+        </span>
+    </footer>
+</body>
+
+</html>

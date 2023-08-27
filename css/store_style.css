@@ -1,0 +1,39 @@
+   
+   .gallery-wrapper {
+        display: flex;
+        width: auto;
+    }
+
+@media screen and (max-width:425px) {
+    .gallery-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .store-item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .gallery-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:2000px) {
+    .store-gallery {
+        font-size: 2vw;
+    }
+
+    .store-item {
+        padding: 5vw 5vw;
+    }
+
+    .store-item .card img {
+        width:15vw;
+        height:15vw;
+    }
+}

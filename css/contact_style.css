@@ -1,0 +1,41 @@
+
+@media screen and (max-width:425px) {
+
+    .wrap-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .three .card iframe {
+        width:100%;
+    }
+
+ 
+}
+
+@media screen and (min-width:425px) {
+
+    .wrap-content {
+        display:grid;
+
+    }
+
+    .three .card iframe {
+        width:100%;
+    }
+
+ 
+}
+
+@media screen and (min-width:2000px) {
+
+    .container {
+        font-size: 1.5vw;
+    }
+
+    .three .card iframe {
+        height:500px;
+    }
+
+
+}
